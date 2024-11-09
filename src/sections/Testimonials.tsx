@@ -52,7 +52,7 @@ export const Testimonials = () => {
             <LayoutGroup>
               <motion.div
                 layout
-                className="border-gradient rounded-3xl px-6 py-16 lg:px-16  lg:py-16 relative flex flex-col md:flex-row gap-12 md:mx-10 md:px-10 mx-20"
+                className="border-gradient rounded-3xl px-6 py-16 lg:px-16  lg:py-16 relative flex flex-col md:flex-row gap-12 md:mx-10 md:px-10 "
               >
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
@@ -67,7 +67,7 @@ export const Testimonials = () => {
                         exit={{ opacity: 0, y: 25 }}
                         transition={{ duration: 0.5 }}
                         key={testimonial.name}
-                        className="flex flex-col lg:flex-row gap-12 "
+                        className="flex flex-col lg:flex-row gap-12   "
                         layout
                       >
                         <p className="sm:text-xl md:text-2xl lg:text-3xl font-medium">
